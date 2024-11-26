@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    font-family: 'Inter', sans-serif; /* Modern font choice - replace with your preference */
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f5f5f5; /* Neutral background */
+    color: #333;
+}
+
+/* Typography */
+h1, h2, h3 {
+    font-weight: 600; /* Slightly bolder headings */
+    color: #222;
+}
+
+/* Links */
+a {
+    color: #007bff; /* Primary color for links */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3; /* Darker shade on hover */
+}
+
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Forms  - Example*/
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+/* Cards - Example */
+.card {
+    background-color: #fff;
+    border-radius: 10px; /* Softer corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Utility Classes - Examples */
+.text-center {
+    text-align: center;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+/* Responsive Design - Example using mobile-first */
+/* ... (Add your responsive adjustments as needed) */
+
+
+
